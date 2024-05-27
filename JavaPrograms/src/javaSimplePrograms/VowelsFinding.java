@@ -1,21 +1,19 @@
-package javaSimplePrograms;
+package javaSimplePrograms; // Package name
 
-public class VowelsFinding {
+public class VowelsFinding { // Class declaration
 
-	public static void main(String[] args) {
+    public static void main(String[] args) { // Main method
 
-		String str= "automation";
-		
-		boolean isVowel = false;
-		
-		for(int i=0;i<str.length();i++) {
-			
-			if(str.charAt(i)=='a'||str.charAt(i)=='e'||str.charAt(i)=='i'||str.charAt(i)=='o'||str.charAt(i)=='u') {
-				//System.out.println("present");
-				System.out.println(str.charAt(i));
-				
-			}
-		}
-	}
-
+        String str = "automation"; // String variable with value "automation"
+        
+        // Loop through each character in the string(ITERATOR)
+        for(int i = 0; i < str.length(); i++) {
+            
+            // Check if the character is a vowel()||get the character at the i-th index of a string
+            if(str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o' || str.charAt(i) == 'u') {
+                // Print the vowel
+                System.out.println(str.charAt(i));
+            }
+        }
+    }
 }
