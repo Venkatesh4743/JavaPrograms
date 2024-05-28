@@ -1,7 +1,6 @@
 package javaSimplePrograms;
 
 import java.util.LinkedHashSet;
-import java.util.LinkedList;
 import java.util.Set;
 
 public class DuplicatesRemove {
