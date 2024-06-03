@@ -8,7 +8,7 @@ public class FibonacciRecurssion {
     static int fibo(int n) {
         
         // Base cases: if n is 1 or 2, return 1
-        if (n == 1 || n == 2) {
+        if (n == 1 || n == 2) {//Here not n==0 and n==1 here n==1||n==2
             return 1;
         }
         

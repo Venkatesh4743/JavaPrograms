@@ -11,7 +11,7 @@ public class ReverseStrinng {
 		for (int i=0;i<str.length();i++) {
 			
 			ch=str.charAt(i);
-			str1=ch+str1;
+			str1=ch+str1;//note ch comes first after +str1
 			System.out.println(str1);
 			
 		}

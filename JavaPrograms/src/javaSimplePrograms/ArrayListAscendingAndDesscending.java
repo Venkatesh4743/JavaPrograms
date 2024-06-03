@@ -1,7 +1,6 @@
 package javaSimplePrograms;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class ArrayListAscendingAndDesscending {
@@ -22,7 +21,7 @@ public class ArrayListAscendingAndDesscending {
 		Collections.sort(alist);
 		System.out.println(alist);
 		
-		Collections.sort(alist,Collections.reverseOrder());
+		Collections.sort(alist,Collections.reverseOrder());//here after alist comma(,)need to be used not dot(.)
 		System.out.println(alist);
 
 	}
