@@ -37,9 +37,10 @@ public class ReverseNumber {
 		    // Remove the last digit from 'num' by performing integer division by 10
 		    num = num / 10;
 		    
-		    // Print the current state of 'reversedNum' to the console
-		    System.out.println(reversedNum);
+		  
+	
 		}
+	    System.out.println(reversedNum);
 
 		}
 

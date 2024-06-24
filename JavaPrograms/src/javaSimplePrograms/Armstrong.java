@@ -46,3 +46,5 @@ public class Armstrong {
         }
     }
 }
+
+	//if it is for 3 digits then we need to cube ex 154=1^3+5^3+4^3 and 1234 then 1^4+2^4+3^4+4^4

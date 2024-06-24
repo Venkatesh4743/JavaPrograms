@@ -14,7 +14,7 @@ public class ReverseArray {
 		
 		int temp;
 		
-		while(start>last) {
+		while(start<last) {
 			
 			 temp=ar[start];
 			 ar[start]=ar[last];

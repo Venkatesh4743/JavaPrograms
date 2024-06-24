@@ -13,7 +13,7 @@ public class SumOfDigits {
 		sc.close();
 		
 		int sum=0;
-		while(num!=0) {
+		while(num>0) {
 			
 			int remainder = num%10;
 			 sum=sum+remainder;

@@ -20,15 +20,15 @@ public class DuplicatesRemove {
         }
         
         // Create a StringBuffer to build the result string
-        StringBuffer sc = new StringBuffer();
+        StringBuffer sf = new StringBuffer();
         
         // Iterate over each character in the set
-        for (Character e : set) {
+        for (Character ch : set) {
             // Append the character to the StringBuffer
-            sc.append(e);
+            sf.append(ch);
             
             // Print the current state of StringBuffer after each addition
-            System.out.println(sc);
+            System.out.println(sf);
         }
     }
 }

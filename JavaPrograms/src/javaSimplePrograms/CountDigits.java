@@ -11,9 +11,10 @@ public class CountDigits {
 			
 			num= num/10;//Here not % here only /
 			count++;
-			System.out.println(count);
-			
+				
 		}
+		System.out.println(count);//by adding print statement outside the block
+		//we can print single value that is 5
 	}
 
 }

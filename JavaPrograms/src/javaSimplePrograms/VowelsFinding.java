@@ -1,4 +1,4 @@
-package javaSimplePrograms; // Package name
+ package javaSimplePrograms; // Package name
 
 public class VowelsFinding { // Class declaration
 

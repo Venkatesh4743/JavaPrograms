@@ -1,34 +1,43 @@
 package javaSimplePrograms;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Scanner;
+import java.util.Set;
+
 public class Revising {
 
 	public static void main(String[] args) {
 		
-		String str = "babuu";
-		String str1="";
-	//	char ch;
-		for(int i=0;i<str.length();i++) {
-			
-		char ch = str.charAt(i);
-			
-			str1 = ch+str1;
-			
-			System.out.println(str1);
-		}
-				
-				
-		}
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a number");
+		String input=sc.nextLine();
+		sc.close();
 		
+		if(isPalindrome(input)) {
 			
+			System.out.println("palindrome number");
+		}else {
 			
-			
+			System.out.println("not a palindrome number ");
 		}
-		
 	
+		}
+	
+	public static boolean isPalindrome(String str) {
 		
+		StringBuilder sbd= new StringBuilder(str);
 		
+		sbd.reverse();
 		
-			
+		return str.equals(sbd.toString());
+	}
+}
+ 			
 
 	
 

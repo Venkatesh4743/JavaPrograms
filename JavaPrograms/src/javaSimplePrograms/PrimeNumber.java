@@ -7,11 +7,11 @@ public class PrimeNumber {
     public static void main(String[] args) {
 
         int n, count = 0;
-        System.out.println("Enter a number");
+        System.out.println("Enter a number"); 
         Scanner sc = new Scanner(System.in);
         
         n = sc.nextInt();
-        
+        sc.close();
         // Loop through numbers from 1 to n
         for(int i = 1; i <= n; i++) {
             // Check if i is a factor of n
@@ -28,3 +28,28 @@ public class PrimeNumber {
         }
     }
 }
+
+
+//First Iteration (i = 1):
+//
+//7 % 1 == 0 is true, so count is incremented by 1.
+//count becomes 1.
+//Second Iteration (i = 2):
+//
+//7 % 2 == 0 is false, so count remains 1.
+//Third Iteration (i = 3):
+//
+//7 % 3 == 0 is false, so count remains 1.
+//Fourth Iteration (i = 4):
+//
+//7 % 4 == 0 is false, so count remains 1.
+//Fifth Iteration (i = 5):
+//
+//7 % 5 == 0 is false, so count remains 1.
+//Sixth Iteration (i = 6):
+//
+//7 % 6 == 0 is false, so count remains 1.
+//Seventh Iteration (i = 7):
+//
+//7 % 7 == 0 is true, so count is incremented by 1.
+//count becomes 2.
