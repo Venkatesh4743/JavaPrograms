@@ -18,9 +18,10 @@ public class CountNumberOfDigit {
 			
 			num= num/10;
 			
-			System.out.println(digitCount);
+		
 			
 		}
+		System.out.println(digitCount);
 	}
 
 }
