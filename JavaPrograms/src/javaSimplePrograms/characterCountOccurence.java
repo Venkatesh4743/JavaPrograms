@@ -8,10 +8,10 @@ public class characterCountOccurence {
         HashMap<Character, Integer> charCountMap = new HashMap<>();
 
         // Sample string
-        String input = "hello";
+        String str = "hello";
 
         // Iterate over each character in the string
-        for (char ch : input.toCharArray()) {
+        for (char ch : str.toCharArray()) {
             // If the character is already in the map, increment its count
             if (charCountMap.containsKey(ch)) {
                 charCountMap.put(ch, charCountMap.get(ch) + 1);
@@ -26,4 +26,4 @@ public class characterCountOccurence {
             System.out.println("Character: " + entry.getKey() + " Count: " + entry.getValue());
         }
     }
-}
+} 

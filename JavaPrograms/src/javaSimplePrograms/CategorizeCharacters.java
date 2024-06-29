@@ -41,7 +41,7 @@ public class CategorizeCharacters {
     }
 }
 
-
+//Note if else if follow this pattern
 
 	//Difference between str.toCharArray and str.charAt(i)
 
