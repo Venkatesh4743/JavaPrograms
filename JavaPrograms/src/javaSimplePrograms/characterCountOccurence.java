@@ -8,7 +8,7 @@ public class characterCountOccurence {
         HashMap<Character, Integer> charCountMap = new HashMap<>();
 
         // Sample string
-        String str = "hello";
+        String str = "banana";
 
         // Iterate over each character in the string
         for (char ch : str.toCharArray()) {

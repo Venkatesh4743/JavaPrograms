@@ -14,38 +14,25 @@ import java.util.Scanner;
 class Revising {
 
 	public static void main(String[] args) {
-		
-	String str="level";
-	
-	String rstr="";
-	char ch ;
-	for(int i=0;i<str.length();i++) {
-		
-		
-		ch= str.charAt(i);
-		rstr= ch+rstr;
-		
-		
-		System.out.println(rstr);
-	}
-	}
-	if(str.equals(rstr)) {
-		System.out.println("String is palindrome");
+		int count=0,n;
 
-	}else {
-		
-		System.out.println("String is not palindrome");
-	
-	}
-			
-			
-}
-		
-	
-		
-		
-		
-}
+	Scanner sc= new Scanner(System.in);
+	System.out.println("enter a number");
+			 n=sc.nextInt();
+			sc.close();
+			for(int i=1;i<=n;i++) {
+				
+				if(n%i==0) {
+					count++;
+				}
+			}
+					if(count==2) {
+						
+						System.out.println("prime number");
+					}else {
+						System.out.println("not a prime number");
+					}
+				}
+		}
 
-	
 
