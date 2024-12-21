@@ -10,6 +10,7 @@ public class FactorialNumber {
 		System.out.println("Enter a number");
 		
 		int num = sc.nextInt();
+		sc.close();
 		
 		int fact = factorial(num);
 		System.out.println(fact);

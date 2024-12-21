@@ -25,9 +25,11 @@ public class CategorizeCharacters {
             if (Character.isDigit(ch)) {
                 // If the character is a digit, append it to 'numbers'
                 numbers.append(ch);
+           
             } else if (Character.isLetter(ch)) {
                 // If the character is a letter, append it to 'alphabets'
                 alphabets.append(ch);
+           
             } else {
                 // If the character is neither a digit nor a letter, it is a special character
                 specialChars.append(ch);

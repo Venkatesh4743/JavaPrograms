@@ -8,7 +8,8 @@ public class CountNumOfWords {
 		
 		Scanner sc= new Scanner(System.in);
 		System.out.println("ENTER SENTENCE YOU LIKE");
-		String str = sc.nextLine();
+		
+		String str = sc.nextLine();// it is sc.nextLine 
 		sc.close();
 		
 		String[] strarry = str.split(" ");

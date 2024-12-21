@@ -3,7 +3,8 @@ package javaSimplePrograms;
 import java.util.HashMap;
 
 public class characterCountOccurence {
-    public static void main(String[] args) {
+   
+	public static void main(String[] args) {
         // Create a HashMap to store character counts
         HashMap<Character, Integer> charCountMap = new HashMap<>();
 
