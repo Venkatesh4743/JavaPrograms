@@ -12,9 +12,11 @@ public class ReverseStrinng {
 			
 			ch=str.charAt(i);
 			rstr=ch+rstr;//note ch comes first after +str1
-			System.out.println(rstr);
+			//System.out.println(rstr);
 			
 		}
-	}
+	
+	System.out.println(rstr);
 
+}
 }

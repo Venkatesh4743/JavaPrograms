@@ -6,16 +6,17 @@ public class PrimeNumber {
 
     public static void main(String[] args) {
 
-        int n, count = 0;
-        System.out.println("Enter a number"); 
+        int num, count = 0;
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a number"); 
         
-        n = sc.nextInt();
+        num = sc.nextInt();
         sc.close();
         // Loop through numbers from 1 to n
-        for(int i = 1; i <= n; i++) {
+        for(int i = 1; i <= num; i++) {
             // Check if i is a factor of n
-            if(n % i == 0) {
+            if(num % i == 0) {
                 count++; // Increment the count of factors
             }
         }
